@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body onload="startGame()" onkeydown="onKeyDown(event)">
+
+    <h1>Space Invaders</h1>
+    <h2 class="score">Score:<span></span></h2>
+    <div class="game-container"> </div>
+
+    <div class="how-to"><span class="instructions">Instructions:</span><br>
+        *Move the player with <br>"Left Arrow" & "Right Arrow" <br>
+        *Press "Space to Shoot"
+        (The game not finished )
+    </div>
+
+    <div class="modal">
+        <button class="play-again" onclick="startGame()">Play Again!</button>
+        <h2 class="user-msg"></h2>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/aliens.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

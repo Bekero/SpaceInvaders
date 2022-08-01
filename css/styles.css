@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    background-image: url(../img/galaxy2.jpg);
+}
+
+table {
+    background-image: url(../img/space.png);
+    opacity: 0.8;
+    width: 500px;
+    height: 500px;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(187, 166, 139);
+    text-shadow: 2px 0px 3px #8d4389;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    color: purple;
+    border: none;
+    margin-top: 25%;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button:hover {
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(95 78 126);
+}
+
+.play {
+    color: white;
+    left: 8%;
+    font-size: 24px;
+    position: absolute;
+}
+
+.score {
+    color: rgb(204, 176, 176);
+    color: rgb(187, 166, 139);
+    text-shadow: 2px 0px 3px #8d4389;
+}
+
+.how-to {
+    color: #a12727;
+    position: absolute;
+    font-size: 20px;
+    left: 4%;
+    top: 5%;}
+
+.instructions {
+    color: #725151;
+    font-size: 39px;
+    left: -17%;
+    top: -15px;
+    position: absolute;}
+
+.game-container {
+
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.wall {
+    background-color: #4e2f8081;
+    width: 20px;
+    height: 20px;
+}
+
+.modal {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    top: 10%;
+    position: absolute;
+    display: none;
+    box-shadow: 19px 10px 16px 19px #00000052;
+    background-color: rgb(41 9 44 / 52%);
+}
+
+.user-msg {
+    color: red;
+}
